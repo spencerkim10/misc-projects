@@ -56,5 +56,5 @@ print('Done')
 
 apple_df = pd.DataFrame(appl_list)
 pltr_df = pd.DataFrame(pltr_list)
-apple_df.to_csv(r'/Users/spnck/documents/appl.csv', header=False)
-pltr_df.to_csv(r'/Users/spnck/documents/pltr.csv', header=False)
+apple_df.to_excel('apple_df')
+pltr_df.to_excel('pltr_df')
